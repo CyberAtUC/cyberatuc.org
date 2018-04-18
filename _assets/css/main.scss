@@ -1,0 +1,59 @@
+// CYBER@UC PRIMARY STYLESHEET
+
+// overrides for Bootstrap variables
+$primary: #e00122;
+
+@import "bootstrap-custom";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.main-content {
+  margin-top: 1em;
+}
+
+// social links in footer
+.social-media-list {
+  padding: 0;
+  li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 0.2em;
+    a {
+      @extend .text-secondary;
+      text-decoration: none;
+      i {
+        @extend .fa-lg;
+      }
+      span {
+        @extend .sr-only;
+      }
+    }
+  }
+}
+
+// homepage stuff
+.home-jumbotron-main {
+  background: asset_url("1534739047_b31db3ed35_o.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 12%;
+  padding-bottom: 12%;
+  @extend .text-light;
+}
+.home-whatwedo {
+  text-align: center;
+  h1 {
+    margin-bottom: 0.5em;
+  }
+  .item-box {
+    @extend .col-6;
+    @extend .col-lg-3;
+    i {
+      @extend .fa-7x;
+      @extend .text-primary;
+    }
+    h2 {
+      @extend .h1;
+      @extend .text-primary;
+    }
+  }
+}

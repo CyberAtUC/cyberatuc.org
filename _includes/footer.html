@@ -1,0 +1,17 @@
+<footer class="site-footer h-card container">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <hr>
+
+  <div class="row">
+    <div class="col-md">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}</p>
+      {%- include social.html -%}
+    </div>
+
+    <div class="col-md">
+      <p>{{- site.description | escape -}}</p>
+    </div>
+  </div>
+
+</footer>
