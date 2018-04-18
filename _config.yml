@@ -22,6 +22,9 @@ baseurl: "/cyberatuc.org" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 
+assets:
+  baseurl: /cyberatuc.org/assets
+
 # Social links
 twitter_username: CyberAtUC
 facebook_username: CyberAtUC
