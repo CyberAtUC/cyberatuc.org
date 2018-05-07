@@ -1,0 +1,36 @@
+executives:
+  - name: A.J. Cardarelli
+    role: President
+  - name: Ryan O'Connor
+    role: Vice President
+  - name: Ryan Baas
+    role: Treasurer
+  - name: Cory McPhillips
+    role: Content and Info Head
+  - name: Alex Winkler
+    role: Outreach Head
+  - name: Jai Singh
+    role: Public Affairs Head
+  - name: Greg Barker
+    role: Recruitment Head
+  - name: Marisa Smith
+    role: Secretary
+committees:
+  - name: Content and Info
+    head: Cory McPhillips
+    members:
+    - asdf
+  - name: Outreach
+    head: Alex Winkler
+    members:
+    - asdf
+  - name: Public Affairs
+    head: Jai Singh
+    members:
+    - asdf
+  - name: Recruitment
+    head: Greg Barker
+    members:
+    - asdf
+others:
+  - asdf
