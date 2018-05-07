@@ -65,6 +65,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
+    jekyll-youtube (1.0.0)
+      jekyll
     kramdown (1.16.2)
     liquid (4.0.0)
     liquid-tag-parser (1.9.0)
@@ -114,6 +116,7 @@ DEPENDENCIES
   jekyll-assets (~> 3.0.11)
   jekyll-feed (~> 0.9)
   jekyll-seo-tag (~> 2.1)
+  jekyll-youtube (~> 1.0.0)
   tzinfo-data
   uglifier (~> 4.1.9)
 

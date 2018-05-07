@@ -38,11 +38,18 @@ $primary: #e00122;
   padding-top: 12%;
   padding-bottom: 12%;
   @extend .text-light;
+  p.lead {
+    font-size: 1.5rem;
+  }
+}
+.home-container > .row {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .home-whatwedo {
   text-align: center;
   h1 {
-    margin-bottom: 0.5em;
+    margin-bottom: 2rem;
   }
   .item-box {
     @extend .col-6;
@@ -56,4 +63,19 @@ $primary: #e00122;
       @extend .text-primary;
     }
   }
+}
+.home-joinus p.lead {
+  font-size: 1.5rem;
+}
+
+// meetings index
+.meetings-links a:active,
+.meetings-links a:hover
+{
+  text-decoration: none;
+}
+
+// individual meeting pages
+.meetings-nav a {
+  @extend .text-secondary;
 }

@@ -1,0 +1,56 @@
+---
+layout: content
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <nav class="meetings-nav row">
+      <div class="col text-left">
+        {% if page.previous.url %}
+          <a class="prev" href="{{page.previous.url}}">&laquo; #{{ page.previous.meeting_number | default: "–" }}</a>
+        {% endif %}
+      </div>
+      <div class="col text-center">
+        <a href="{{site.url}}/meetings/">View all meetings</a>
+      </div>
+      <div class="col text-right">
+        {% if page.next.url and page.next.relative_path != "_meetings/index.html" %}
+          <a class="next" href="{{page.next.url}}">#{{ page.next.meeting_number | default: "–" }} &raquo;</a>
+        {% endif %}
+      </div>
+    </nav>
+    <h1 class="post-title p-name" itemprop="name headline">
+      {{ page.title | escape }}
+    </h1>
+    <p class="post-meta">
+      {%- if page.meeting_number -%}
+        <strong class="meeting-number">Meeting #{{ page.meeting_number }}</strong> •
+      {% endif -%}
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+
+    {%- if page.meeting_number and page.meeting_slides != "false" -%}
+      <p class="h4"><a href="{{ site.url }}/meetings/slides/meeting_{{ page.meeting_number | prepend: '000' | slice: -3, 3 }}.pdf">View the slides.</a></p>
+    {%- endif -%}
+
+    {%- if page.youtube -%}
+      {% youtube {{ page.youtube }} %}
+    {%- endif -%}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
