@@ -26,7 +26,7 @@ future: true # show future-dated posts
 date_format: "%b %-d, %Y"
 
 # page settings
-permalink: /:categories/:year/:month/:day/:title:output_ext
+permalink: /:categories/:year/:month/:day/:title
 collections:
   meetings:
     output: true
