@@ -21,6 +21,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
+future: true # show future-dated posts
+# refer to http://shopify.github.io/liquid/filters/date/ to customize this
+date_format: "%b %-d, %Y"
 
 # page settings
 permalink: /:categories/:year/:month/:day/:title:output_ext
@@ -43,6 +46,12 @@ github_username: UCyber
 youtube_channel_id: UCWcJuk7A_1nDj4m-cHWvIFw
 rss: RSS
 
+# links to appear in the navbar
+header_pages:
+- about.md
+- _meetings/index.html
+- blog.md
+
 # Build settings
 markdown: kramdown
 plugins:
@@ -55,13 +64,3 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-
-# links to appear in the navbar
-header_pages:
-  - about.md
-  - _meetings/index.html
-  - blog.md
-
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-date_format: "%b %-d, %Y"
