@@ -11,7 +11,7 @@ permalink: /meetings/
       <th scope="col">#</th>
       <th scope="col">Title</th>
       <th scope="col">Date</th>
-      <th scope="col">Links</th>
+      <th scope="col" class="d-none d-sm-none d-md-table-cell">Links</th>
     </tr>
   </thead>
   <tbody>
@@ -25,7 +25,7 @@ permalink: /meetings/
             {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
             {{ meeting.date | date: date_format }}
           </td>
-          <td class="meetings-links">
+          <td class="meetings-links d-none d-sm-none d-md-table-cell">
             {%- if meeting.meeting_number and meeting.meeting_slides != false -%}
               <a href="{{ site.url }}/files/slides/meeting_{{ meeting.meeting_number | prepend: '000' | slice: -3, 3 }}.pdf" title="View the meeting slides"><i class="fa-fw fa-lg fas fa-file-pdf"></i></a>
             {%- else -%}
