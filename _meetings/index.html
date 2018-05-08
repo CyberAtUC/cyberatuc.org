@@ -15,7 +15,8 @@ permalink: /meetings/
     </tr>
   </thead>
   <tbody>
-    {% for meeting in site.meetings %}
+    {%- assign meetings_sorted = site.meetings | sort: 'meeting_number' | reverse -%}
+    {% for meeting in meetings_sorted %}
       {% if meeting.relative_path != "_meetings/index.html" %}
         <tr>
           <th scope="row">{{ meeting.meeting_number | default: "–" }}</th>
@@ -25,7 +26,7 @@ permalink: /meetings/
             {{ meeting.date | date: date_format }}
           </td>
           <td class="meetings-links">
-            {%- if meeting.meeting_number and meeting.meeting_slides != "false" -%}
+            {%- if meeting.meeting_number and meeting.meeting_slides != false -%}
               <a href="{{ site.url }}/files/slides/meeting_{{ meeting.meeting_number | prepend: '000' | slice: -3, 3 }}.pdf" title="View the meeting slides"><i class="fa-fw fa-lg fas fa-file-pdf"></i></a>
             {%- else -%}
               <i class="fa-fw fa-lg"></i>

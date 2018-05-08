@@ -39,7 +39,7 @@ layout: content
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
 
-    {%- if page.meeting_number and page.meeting_slides != "false" -%}
+    {%- if page.meeting_number and page.meeting_slides != false -%}
       <p class="h4"><a href="{{ site.url }}/meetings/slides/meeting_{{ page.meeting_number | prepend: '000' | slice: -3, 3 }}.pdf">View the slides.</a></p>
     {%- endif -%}
 
