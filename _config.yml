@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   and educating others on all things cybersecurity.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-lang: en
+lang: en_US
 future: true # show future-dated posts
 # refer to http://shopify.github.io/liquid/filters/date/ to customize this
 date_format: "%b %-d, %Y"
@@ -45,6 +45,14 @@ instagram_username: CyberAtUC
 github_username: UCyber
 youtube_channel_id: UCWcJuk7A_1nDj4m-cHWvIFw
 rss: RSS
+social:
+  name: Cyber@UC
+  links:
+  - https://twitter.com/CyberAtUC
+  - https://www.facebook.com/CyberAtUC
+  - https://www.instagram.com/CyberAtUC
+  - https://github.com/UCyber
+  - https://youtube.com/channel/UCWcJuk7A_1nDj4m-cHWvIFw
 
 # links to appear in the navbar
 header_pages:

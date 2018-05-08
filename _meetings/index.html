@@ -1,6 +1,7 @@
 ---
 layout: content
 title: Meetings
+description: "Here is the archive of all our past club meetings. PDFs of the slides and YouTube recordings of the meetings are included when available. We hold meetings every Wednesday at 6:30pm in Rhodes 850D, so why not join us for the next one?"
 permalink: /meetings/
 ---
 <h1>Meetings</h1>
@@ -18,7 +19,7 @@ permalink: /meetings/
     {%- assign meetings_sorted = site.meetings | sort: 'meeting_number' | reverse -%}
     {% for meeting in meetings_sorted %}
       {% if meeting.relative_path != "_meetings/index.html" %}
-        <tr>
+        <tr class="meeting-row">
           <th scope="row">{{ meeting.meeting_number | default: "–" }}</th>
           <td><a href="{{ site.url }}{{ meeting.url }}">{{ meeting.title }}</a></td>
           <td>
