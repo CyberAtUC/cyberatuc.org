@@ -50,7 +50,7 @@ See [Jekyll's website](https://jekyllrb.com/) for documentation of the most basi
 
 One quirk of this project is that we use [jekyll-assets](https://github.com/envygeeks/jekyll-assets) instead of Jekyll's built-in asset management, so if you are embedding an image/script/stylesheet/etc, it might be a little bit different than what Google will tell you. See jekyll-assets' docs at that link (or just look at some of the existing pages and copy from them).
 
-The theme for the site was built from Jekyll's default theme, [minima](https://github.com/jekyll/minima), but it has been heavily modified to use [Bootstrap 4](http://getbootstrap.com/) (a framework for layout/components/etc). We also use [Font Awesome 5](https://fontawesome.com/) for icons, [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) for metadata tags, and a couple other plugins for this and that (see the `Gemfile` or the build settings in `_config.yml`)
+The theme for the site was built from Jekyll's default theme, [minima](https://github.com/jekyll/minima). However, it has been heavily modified to use [Bootstrap 4](http://getbootstrap.com/) (a framework for layout/components/etc). We also use [Font Awesome 5](https://fontawesome.com/) for icons, [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) for metadata tags, and a couple other plugins for this and that (see the `Gemfile` or the build settings in `_config.yml`). Googlers beware: Bootstrap 4 and Font Awesome 5 are both relatively new versions of that software, so a lot of the info on Google might still be for the previous version.
 
 ### Meetings
 
