@@ -7,7 +7,7 @@ layout: default
       Cyber@UC
       <span class="d-none d-sm-none d-md-inline">OWASP Chapter</span>
       </h1>
-    <p class="lead">We are a student-run organization at the University of Cincinnati focused on cybersecurity.</p>
+    <p class="big-lead">We are a student-run organization at the University of Cincinnati focused on cybersecurity.</p>
   </div>
 </div>
 <div class="container home-container">
@@ -40,13 +40,50 @@ layout: default
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus, augue a tincidunt lobortis, risus dolor eleifend sapien, nec rutrum libero nibh eget tellus.</p>
     </div>
   </div>
+
   <div class="row home-joinus align-items-center">
     <div class="col-md-6 col-lg-5">
-      {% asset meeting_20180110.jpg !integrity alt="Meeting photo from January 10, 2018" class="img-fluid img-thumbnail" %}
+      <a href="{% asset meeting_20180110.jpg @path %}" target="_blank">
+        {% asset meeting_20180110.jpg !integrity
+          srcset:width=1335 srcset:width=890 srcset:width=445 srcset:width=330
+          alt="Meeting photo from January 10, 2018" class="img-fluid img-thumbnail"
+          %}
+      </a>
     </div>
     <div class="col-md-6 col-lg-7 text-center">
       <h1 class="display-4">Join Us!</h1>
-      <p class="lead">We meet every Wednesday at 6:30pm in Rhodes&nbsp;850D (the classroom in the CEAS&nbsp;Library). We also have a lab in ERC&nbsp;516.</p>
+      <p class="big-lead">We meet every Wednesday at 6:30pm in Rhodes&nbsp;850D (the classroom in the CEAS&nbsp;Library). We also have a lab in ERC&nbsp;516.</p>
+    </div>
+  </div>
+
+  <div class="row home-getconnected align-items-center text-center">
+    <div class="col-lg-8">
+      <h1 class="display-4">Get Connected</h1>
+      <p class="big-lead">Slack is the main way we communicate, so sign up if you are interested in the club. We also have helpful videos and meeting livestreams on our YouTube channel, and other content on our various social media accounts.</p>
+    </div>
+    <div class="col-lg-4">
+      <a href="https://ucyber.slack.com/signup" class="btn btn-primary btn-lg">
+        Sign up for <i class="fab fa-slack"></i> Slack
+      </a>
+      <!-- <a href="https://www.youtube.com/channel/{{ site.youtube_channel_id }}" class="btn btn-primary btn-lg">
+        Check out our <i class="fab fa-youtube"></i> YouTube
+      </a> -->
+      <br/>
+      <a class="btn btn-secondary" href="https://www.youtube.com/channel/{{ site.youtube_channel_id }}" title="YouTube">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a class="btn btn-secondary" href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="btn btn-secondary" href="https://www.facebook.com/{{ site.facebook_username }}" title="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a class="btn btn-secondary" href="https://www.instagram.com/{{ site.instagram_username }}" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a class="btn btn-secondary" href="https://github.com/{{ site.github_username }}" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
     </div>
   </div>
 </div>

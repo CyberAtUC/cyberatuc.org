@@ -11,6 +11,11 @@ $primary: #e00122;
   margin-top: 1em;
 }
 
+.big-lead {
+  @extend .lead;
+  font-size: 1.5rem;
+}
+
 // social links in footer
 .social-media-list {
   padding: 0;
@@ -38,9 +43,6 @@ $primary: #e00122;
   padding-top: 12%;
   padding-bottom: 12%;
   @extend .text-light;
-  p.lead {
-    font-size: 1.5rem;
-  }
 }
 .home-container > .row {
   margin-top: 5rem;
@@ -64,8 +66,10 @@ $primary: #e00122;
     }
   }
 }
-.home-joinus p.lead {
-  font-size: 1.5rem;
+.home-getconnected {
+  .btn {
+    margin-bottom: 0.5rem;
+  }
 }
 
 // meetings index
