@@ -1,0 +1,97 @@
+,attachments,bonus,category,completed,hint,hint_cost,intro,level_id,links,owner,points,title,type
+Angola,[],0,Quiz,"['SLACKers', 'Blah', 'thestickering', 'Club Bread', 'SecNoob', 'Day-Sec Machina', ""Bo's Boys"", 'blah2', 'maliciousmushroom', 'Cyber@UC', 'Th3J0kr']",no,-1,This tool is commonly used to investigate packet captures.,73,[],SLACKers,10,Entry Level Security Professional,quiz
+Argentina,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'thestickering', 'Club Bread', 'Th3J0kr', 'Day-Sec Machina', 'Cyber@UC', 'blah2', 'Pari-Chute', 'og_catzilla', 'DefconDolly']",no,-1,This runs over port 443 and adds some security to web browsing.,67,[],SLACKers,3,101,quiz
+Australia,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Club Bread', 'Day-Sec Machina', 'Th3J0kr', 'og_catzilla', 'Cyber@UC']",no,-1,What is the name given to the exploit believed to be developed by NSA that abuses SMB v1 and was released by Shadow Brokers,41,[],SLACKers,5,Script Kiddie,quiz
+Austria,[],0,Quiz,"['Club Bread', ""Bo's Boys"", 'SecNoob', 'Day-Sec Machina', 'Cyber@UC', 'thestickering', 'SLACKers', 'Th3J0kr', 'blah2']",no,-1,A hacker group that adopted the Guy Fawkes mask.,65,[],Club Bread,5,Script Kiddie,quiz
+Bangladesh,[],0,Quiz,"['C.S.I.M.C. Crew', ""Bo's Boys"", 'SLACKers', 'Club Bread', 'Day-Sec Machina', 'Cyber@UC', 'Th3J0kr', 'blah2']",oneword,0,Digital Currency with inherent privacy of transactions and owner. ,66,[],C.S.I.M.C. Crew,3,101,quiz
+Belarus,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Club Bread', 'Day-Sec Machina', 'blah2']",trick or treat... Answer is 2 words and expalins what this question is.,0,"What's more secure SSL or HTTPS? 
+
+;)",87,[],SLACKers,10,Security Professional,quiz
+Botswana,[],0,Quiz,"['SLACKers', 'thestickering', 'Club Bread', 'SecNoob', 'Day-Sec Machina', ""Bo's Boys"", 'Cyber@UC']",no,-1,What port does Windows Remote Manager run on by default?,34,[],SLACKers,5,Script Kiddie,quiz
+Brazil,[],0,Quiz,"['SLACKers', 'Day-Sec Machina', ""Bo's Boys"", 'Club Bread', 'Pari-Chute', 'og_catzilla']",RUN to this answer. HKLM\Software\..,0,This Windows registry is a common location for malware to execute from and is executed on start up. Use the short hand name for primary hive when answering.,45,[],SLACKers,15,Security Professional,quiz
+Burkina Faso,[],0,Quiz,"[""Bo's Boys"", 'Day-Sec Machina', 'SecNoob', 'SLACKers', 'Club Bread', 'Cyber@UC', 'Pari-Chute']",no,-1,What is the most commonly used algorithm to compare or validate files?,79,[],Bo's Boys,10,Entry Level Security Professional,quiz
+Cameroon,[],0,Quiz,"['SLACKers', 'SecNoob', ""Bo's Boys"", 'Day-Sec Machina', 'Club Bread', 'Cyber@UC']",_,0,What is the $MFT index number?,46,[],SLACKers,15,Security Professional,quiz
+Canada,[],0,Quiz,"['C.S.I.M.C. Crew', 'Day-Sec Machina', 'Club Bread', ""Bo's Boys""]",no,-1,"When a router is blocking ICMP, what reply codes would you receive on your console? (just code #)",25,[],C.S.I.M.C. Crew,15,Security Professional,quiz
+Central African Republic,[],0,Quiz,"['SLACKers', 'Club Bread', 'thestickering', 'Day-Sec Machina', 'SecNoob', ""Bo's Boys"", 'Cyber@UC']",no,-1,What is the name of the attack framework similar to Metasploit that was used by the NSA and released by Shadow Brokers?,43,[],SLACKers,10,Entry Level Security Professional,quiz
+Chad,[],0,Quiz,"['SLACKers', 'Day-Sec Machina', 'Th3J0kr', ""Bo's Boys"", 'Club Bread', 'SecNoob', 'Cyber@UC']",no,-1,What is the name of the ransomware that abused eternalblue and infected computers across the globe?,42,[],SLACKers,5,Script Kiddie,quiz
+Chile,[],0,Quiz,"['SLACKers', 'Club Bread', 'Day-Sec Machina', 'Cyber@UC', ""Bo's Boys"", 'blah2', 'Pari-Chute', 'thestickering']",_____.___,0,What services does mimikatz use to extract passwords? (include extension),47,[],SLACKers,15,Security Professional,quiz
+China,"[{'filename': 'DidIHearMeowing_QuestionMark_36fb718cc65d6ce494dc4dd66f3a83f0', 'file_link': '/data/attachment.php?id=3'}]",0,Forensics,[],no,-2,"Some users have been complaining that a recent computer update failed and they're experiencing some computer difficulty. Luckily we've grabbed a pcap of the traffic. 
+
+We need the MD5 hash value of the file that may be causing problems.",8,[],Uncaptured,100,Update Failed,flag
+Colombia,[],0,Quiz,"['SLACKers', 'Club Bread', ""Bo's Boys"", 'thestickering', 'Day-Sec Machina', 'Cyber@UC', 'dogecoin_m1n3r', 'Pari-Chute', 'blah2', 'og_catzilla']",no,-1,How many bytes is a TCP header?,77,[],SLACKers,15,Security Professional,quiz
+Costa Rica,[],0,Quiz,"['SLACKers', 'Club Bread', ""Bo's Boys"", 'thestickering', 'eattacos', 'Cyber@UC', 'Day-Sec Machina', 'Pari-Chute', 'Th3J0kr', 'og_catzilla', 'DefconDolly']",no,-1,This insecure protocol typically communicates on TCP port 23,39,[],SLACKers,5,Script Kiddie,quiz
+Czech Republic,[],0,Quiz,"['thestickering', ""Bo's Boys"", 'Day-Sec Machina', 'Club Bread', 'Cyber@UC']",no,-1,What command from Vol.py would you use to dump a process's executable?,74,[],thestickering,15,Security Professional,quiz
+Egypt,[],0,Quiz,"['SLACKers', 'Blah', ""Bo's Boys"", 'Day-Sec Machina', 'SecNoob', 'blah2', 'Cyber@UC', 'C.S.I.M.C. Crew']",no,-1,What is the name of the cyber weapon believed to have been jointly developed by Israel and the United States to target PLC controllers in Iran?,26,[],SLACKers,10,Entry Level Security,quiz
+Ethiopia,[],0,Quiz,"['SLACKers', 'Day-Sec Machina', 'Th3J0kr', ""Bo's Boys"", 'SecNoob', 'Club Bread', 'thestickering']",no,-1,This type of encryption uses a different key to decrypt the data then what was used to encrypt it.,51,[],SLACKers,10,Entry Level Security,quiz
+Finland,[],0,Quiz,"['SLACKers', 'Club Bread', ""Bo's Boys"", 'SecNoob', 'Day-Sec Machina']",yes,3,What directory do Android apps install under on the Android file system? (full path using / ),24,[],SLACKers,10,Entry Level Security Professional,quiz
+France,[],20,Quiz,"[""Bo's Boys"", 'Day-Sec Machina']",no,-1,What command will enable xp_cmdshell when issued in MSSQL? (Go and Exec not needed in answer),27,[],Bo's Boys,25,Hacker Dood,quiz
+Germany,[],0,Quiz,"['SLACKers', 'Club Bread', ""Bo's Boys"", 'Day-Sec Machina', 'SecNoob', 'thestickering']",yes,2,What type of DNS record is this? v=spf1 ip4:1.1.1.0/24 ip4:2.2.2.0/24 mx include:_spf.foo.com ~all,20,[],SLACKers,20,Hacker Dood,quiz
+Greece,[],0,Quiz,"[""Bo's Boys"", 'Day-Sec Machina', 'Club Bread', 'SecNoob', 'blah2', 'thestickering', 'SLACKers', 'Cyber@UC', 'DefconDolly']",no,-1,This insecure protocol typically communicates on TCP port 21,40,[],Bo's Boys,5,Script Kiddie,quiz
+Greenland,[],0,Quiz,"['SLACKers', 'Th3J0kr', 'Cyber@UC', 'Day-Sec Machina', ""Bo's Boys"", 'C.S.I.M.C. Crew']",2 words,0,"This cyber security specialist won’t design a building, but will  ensure that the bank’s security posture is implemented properly.",64,[],SLACKers,3,101,quiz
+Guatemala,[],0,Quiz,"['eattacos', 'Club Bread', ""Bo's Boys""]",no,-1,This type of file can aid an forensic examiner to tell them when a program was ran on a system.,54,[],eattacos,10,Entry Level Security,quiz
+Guinea,[],0,Quiz,"['SLACKers', 'Club Bread', ""Bo's Boys"", 'Day-Sec Machina', 'Th3J0kr', 'SecNoob', 'Cyber@UC', 'Pari-Chute', 'blah2']",no,-1,This organization is also known as No Such Agency,35,[],SLACKers,5,Script Kiddie,quiz
+Honduras,[],0,Quiz,"['SLACKers', 'Club Bread', ""Bo's Boys"", 'thestickering', 'Cyber@UC', 'Day-Sec Machina', 'Th3J0kr', 'og_catzilla']",no,-1,"Software used to disrupt operations, gather information, or gain access to private computer systems.",62,[],SLACKers,3,101,quiz
+India,[],0,Quiz,"['C.S.I.M.C. Crew', ""Bo's Boys"", 'SLACKers', 'thestickering', 'daySec_Machina', 'Club Bread', 'SecNoob', 'Day-Sec Machina', 'blah2', 'Cyber@UC']",_____ _______,0,In 1995 this hacker was arrested and put into isolation because the judge believed he could start a nuclear code by whistling into a phone? ,57,[],C.S.I.M.C. Crew,10,Entry Level Security,quiz
+Indonesia,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Club Bread', 'thestickering', 'Day-Sec Machina', 'C.S.I.M.C. Crew']",__________,0,Physical traits of a person may be used for authentication.,60,[],SLACKers,3,101,quiz
+Italy,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Club Bread', 'Day-Sec Machina', 'SecNoob', 'thestickering', 'Cyber@UC', 'blah2', 'DefconDolly']",no,-1,What country is APT28 known to work for?,30,[],SLACKers,10,Entry Level Security,quiz
+Laos,[],0,Quiz,"[""Bo's Boys"", 'Club Bread', 'Day-Sec Machina', 'SLACKers', 'Cyber@UC']",no,-1,A vulnerability by this name was found in OpenSSL that could lead to stealing of secret keys and credentials by leaking memory of the impacted server.,38,[],Bo's Boys,5,Script Kiddie,quiz
+Libya,[],0,Quiz,"[""Bo's Boys"", 'Day-Sec Machina']",yes,3,What is a popular method of forensics analysis used for detecting rootkits and injected code in processes?,49,[],Bo's Boys,10,Entry Level Security,quiz
+Madagascar,[],0,Quiz,"['Club Bread', 'Day-Sec Machina', ""Bo's Boys""]",3 words,0,"An attacker may use this NTFS trick to put data within data without affecting a file's name, functionality, or size. 
+
+Example:
+
+Stream:               Length:
+_______               _______
+
+:$Data                      8
+SecondStream               27",76,[],Club Bread,15,Security Professional,quiz
+Malaysia,[],0,Quiz,"[""Bo's Boys"", 'Club Bread', 'Day-Sec Machina', 'SLACKers']",______ ____ _____,0,What does MFT stand for?,52,[],Bo's Boys,5,Script Kiddie,quiz
+Mali,[],0,Quiz,"['SLACKers', 'Club Bread', 'Day-Sec Machina', 'thestickering', ""Bo's Boys"", 'SecNoob', 'Cyber@UC', 'Pari-Chute']",no,-1,This code can be used to test to find out if your BASH is vulnerable to a vulnerability by this name? x='() { :;}; echo VULNERABLE' bash -c :,37,[],SLACKers,10,Entry Level Security Professional,quiz
+Mauritania,[],0,Quiz,"['SLACKers', 'Club Bread', ""Bo's Boys"", 'Day-Sec Machina', 'Th3J0kr', 'SecNoob', 'Cyber@UC', 'Pari-Chute', 'blah2']",____ ___,0,An attack or exploit that has never been seen before is called what?,56,[],SLACKers,10,Entry Level Security,quiz
+Mexico,[],0,Quiz,"['SLACKers', 'Club Bread', ""Bo's Boys"", 'daySec_Machina', 'thestickering', 'SecNoob', 'Day-Sec Machina', 'C.S.I.M.C. Crew', 'Pari-Chute', 'dogecoin_m1n3r', 'Th3J0kr', 'Cyber@UC', 'DefconDolly']",no,-1,What is the name given to hardware that gets added onto an ATM by criminals to steal PINs and the data from the magnetic strip on cards?,28,[],SLACKers,5,Script Kiddie,quiz
+Mongolia,[],0,Quiz,"['C.S.I.M.C. Crew', 'SLACKers', ""Bo's Boys"", 'thestickering', 'daySec_Machina', 'Club Bread', 'Day-Sec Machina', 'Th3J0kr', 'maliciousmushroom', 'SecNoob', 'Cyber@UC']",no,-1,What is the linux cmd to change file permissions?,85,[],C.S.I.M.C. Crew,5,Script Kiddie,quiz
+Morocco,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Club Bread', 'Day-Sec Machina']",no,-1,Your most valuable data should be stored in this tier.,58,[],SLACKers,3,101,quiz
+Myanmar (Burma),[],15,Quiz,"['Club Bread', ""Bo's Boys""]",sudo path and pipe it (>),0,"I need a text file of all of my friends birthdays. Luckily I have a program that can help me. 
+
+I need help knowing what command to run!
+- My birthday program is stored in /home/user/Desktop/birthdays.sh.
+- It needs to be ran as root because I keep my friends birthdays stored in a secure place. 
+- birthdays.sh will provide a list of my friends birthdays in the terminal, but I need to pipe it to a birthdays.txt file.
+
+What linux command would I type if I am currently in the /home folder?",86,[],Club Bread,10,Entry Level Security Professional,quiz
+Nicaragua,[],0,Quiz,"['SLACKers', 'Club Bread', ""Bo's Boys"", 'Day-Sec Machina', 'thestickering', 'eattacos', 'Cyber@UC', 'Pari-Chute', 'og_catzilla']",word-word,0,What command will enable PowerShell Remoting (no arguments),23,[],SLACKers,15,Security Professional,quiz
+Nigeria,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Day-Sec Machina', 'Cyber@UC']",2 words,0,"These cyber security guidelines help a company to Identify,  Protect, Detect, Respond, and Recover from cyber threats.",63,[],SLACKers,3,101,quiz
+North Korea,[],10,Quiz,"['Club Bread', 'thestickering', ""Bo's Boys"", 'SLACKers', 'Day-Sec Machina', 'blah2', 'Cyber@UC']",yes,1,This network separates your internal network from the internet.,59,[],Club Bread,3,101,quiz
+Norway,[],0,Quiz,"['Club Bread', 'SLACKers', ""Bo's Boys"", 'Day-Sec Machina', 'Th3J0kr', 'Cyber@UC', 'SecNoob', 'blah2']",2 words,0,"The practice of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer",61,[],Club Bread,3,101,quiz
+Papua New Guinea,[],0,Quiz,"['SLACKers', 'Day-Sec Machina', ""Bo's Boys"", 'Th3J0kr', 'Cyber@UC']",use the abbreviation,0,This HTTP header field is used to identify the originating IP address of a host connecting to the web through a proxy or load balancer. ,78,[],SLACKers,15,Security Professional,quiz
+Paraguay,[],0,Quiz,"[""Bo's Boys"", 'SLACKers', 'Club Bread', 'thestickering', 'Pari-Chute', 'Day-Sec Machina', 'blah2', 'Cyber@UC', 'og_catzilla', 'DefconDolly']",Cross your T's and escape your Java code...,0,A hacker inserts a JavaScript inside of a query string variable or through form posts. The JavaScript then renders on the end user's browser and can inject malicious code. What is this attack an example of? (use abbreviation),82,[],Bo's Boys,15,Security Professional,quiz
+Philippines,[],0,Quiz,"[""Bo's Boys""]",yes,2,"Riddle me this:
+
+I am a text file
+I am small - less than 500 bytes
+I am not a resident in any sub-folder of the C:\ drive
+because of this I am called a...
+
+",75,[],Bo's Boys,15,Security Professional,quiz
+Poland,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Club Bread', 'Day-Sec Machina', 'thestickering', 'SecNoob']",no,-1,A virus that changes as it spreads it called what?,55,[],SLACKers,10,Entry Level Security,quiz
+Portugal,[],0,Quiz,"['SLACKers', 'Club Bread', ""Bo's Boys"", 'Day-Sec Machina', 'SecNoob', 'blah2', 'Cyber@UC', 'thestickering']",no,-1,"On April 1st 2003, what RFC # was proposed for the ""Evil Bit""?",53,[],SLACKers,5,Entry Level Security,quiz
+Romania,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Day-Sec Machina', 'Club Bread', 'SecNoob', 'blah2', 'Cyber@UC']",no,-1,What algorithm produces a 160 bit hash? (no -),18,[],SLACKers,10,Entry Level Security Professional,quiz
+Russia,"[{'filename': 'Greetings_From_Cincinnati_e270fd86386bd9d10be2a0bf419516fe.pcap', 'file_link': '/data/attachment.php?id=1'}]",0,Forensics,"['SLACKers', ""Bo's Boys"", 'Day-Sec Machina']",no,-2,Not very useful if you can't read the docxument!,6,[],SLACKers,150,"""x4D70+4CF0""",flag
+Saudi Arabia,"[{'filename': 'Lucky13_c0f309baabaad5e166a403b3239bd1a4', 'file_link': '/data/attachment.php?id=2'}]",0,Forensics,"[""Bo's Boys""]",no,-1,We've never been superstitious (okay maybe a little stitious). 13 might be your good luck charm :),7,[],Bo's Boys,50,ICMPING,flag
+Serbia,[],0,Quiz,"[""Bo's Boys"", 'Day-Sec Machina', 'Club Bread']",$______.___,0,"Location of the RUN key for individual users is stored in what file? (Not path, just name)",48,[],Bo's Boys,15,Security Professional,quiz
+South Africa,[],0,Quiz,"['SLACKers', 'thestickering', 'Day-Sec Machina', 'SecNoob', 'Club Bread', ""Bo's Boys"", 'blah2', 'Cyber@UC']",yes,5,"This will encrypt email using digital signatures. A public-private key pair between the sender and receiver. It will not stop an attacker from stealing the email, but he will not be able to read it. (use abbreviation)",81,[],SLACKers,15,Security Professional,quiz
+Spain,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Club Bread', 'SecNoob', 'Day-Sec Machina', 'Cyber@UC', 'thestickering']",no,-1,What is the user name of the account who's password hash is needed to successfully pull off a Golden Ticket attack?,33,[],SLACKers,15,Security Professional,quiz
+Sudan,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'SecNoob', 'Day-Sec Machina']",two words,0,"The intrusion into the health care group Anthem was attributed to this threat actor group.
+(space between words)",31,[],SLACKers,10,Entry Level Security,quiz
+Svalbard & Jan Mayen,[],0,Quiz,"['Day-Sec Machina', ""Bo's Boys"", 'Club Bread', 'SLACKers', 'og_catzilla']",In Search Of the answer...,0,This file contains an application or CD image. Within this file is a collection of files and executable. You can mount them or boot to them.,83,[],Day-Sec Machina,5,Script Kiddie,quiz
+Tajikistan,[],0,Quiz,"[""Bo's Boys""]",yes,2,what would the windows command line syntax be to query the information of a scheduled task named office update? ,32,[],Bo's Boys,15,Security Professional,quiz
+Thailand,[],0,Quiz,"[""Bo's Boys"", 'Club Bread', 'Day-Sec Machina', 'SLACKers']",no,-1,What is the max size of an HTTP version 4 packet header in bytes?,29,[],Bo's Boys,15,Security Professional,quiz
+Turkey,[],0,Quiz,"['SLACKers', 'Club Bread', 'daySec_Machina', ""Bo's Boys"", 'Day-Sec Machina', 'eattacos', 'SecNoob', 'thestickering', 'Cyber@UC']",no,-1,What open source *NIX version of .NET was built by GNOME devs?,4,[],SLACKers,5,1 on 1,quiz
+Turkmenistan,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Day-Sec Machina', 'blah2']",Group was already assumed in the question.,0,What is the name of the group within the NSA that the Shadow Brokers are believed to have stolen and released exploits from?,44,[],SLACKers,10,Entry Level Security Professional,quiz
+Ukraine,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Club Bread', 'Day-Sec Machina', 'eattacos', 'SecNoob']",no,-1,What port does the finger protocol use?,16,[],SLACKers,10,Entry Level Security Professional,quiz
+United Kingdom,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Day-Sec Machina', 'blah2', 'thestickering', 'Club Bread']",no,-1,What encoding is used to turn malware into a BUP?,72,[],SLACKers,15,Security Professional,quiz
+United States,[],0,Quiz,"['SLACKers', 'SecNoob', 'Day-Sec Machina', ""Bo's Boys"", 'dogecoin_m1n3r']",two words ending in ING,0,Without proper SPF and DMARC what type of attack is possible against your organization?,36,[],SLACKers,10,Entry Level Security Professional,quiz
+Venezuela,[],0,Quiz,"[""Bo's Boys"", 'SLACKers', 'Club Bread', 'eattacos', 'Day-Sec Machina', 'Cyber@UC', 'blah2', 'Pari-Chute', 'maliciousmushroom', 'og_catzilla']",no,-1,What netstat command shows the routing tables? (full command with option),21,[],Bo's Boys,10,Entry Level Security Professional,quiz
+Vietnam,[],0,Quiz,"['SLACKers', 'Day-Sec Machina', ""Bo's Boys"", 'Club Bread']",no,-1,What is the given name of the daemon whose goal is to launch applications in the Android architecture? (1 word),22,[],SLACKers,15,Security Professional,quiz
+Yemen,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'Club Bread', 'Day-Sec Machina', 'SecNoob']",yes,3,An opt-in security enhancement specified by the web server by using a response header. Instructs browser to send all communications over HTTPS instead of HTTP. (abbreviation),15,[],SLACKers,20,Hacker Dood,quiz
+Zambia,[],0,Quiz,"['SLACKers', ""Bo's Boys"", 'thestickering', 'Blah', 'Club Bread', 'blah2', 'Day-Sec Machina', 'Cyber@UC']",two words,0,What U.S. Federal agency was first given jurisdiction by the Computer Fraud and Abuse Act? (do not abbreviate agency),50,[],SLACKers,10,Entry Level Security,quiz
