@@ -46,7 +46,7 @@ The USB cable on the webcam is really short, so I recommend you don't even remov
 ### Capture card
 The Elgato Cam Link capture card should already have a dinky little ~6-inch USB 3.0 extension cable attached to it. Plug that cable directly into one of the USB 3.0 ports on the PC (you **must** use a USB 3.0 port or it won't work). We have a couple HDMI cables, most of them are short but there's one long one; connect the long one to the Elgato Cam Link. Connect the other end of that HDMI cable to one of the outputs on the 1x2 HDMI Splitter.
 
-The other output on the 1x2 HDMI Splitter needs to go to the projector. There are two HDMI cables coming out of a hole in the top of the presenter's desk (just behind the computer monitors) -- unfortunately, it's a game of trial and error to figure out which one is the HDMI input.
+The other output on the 1x2 HDMI Splitter needs to go to the projector. There are two HDMI cables coming out of a hole in the top of the presenter's desk (just behind the computer monitors)—unfortunately, it's a game of trial and error to figure out which one is the HDMI input (once you've finished connecting everything you should test it—see the last paragraph of the Projectors section below).
 
 Now both of the outputs on the 1x2 HDMI Splitter should be connected, but we still need an input. Connect the 2x1 HDMI Pigtail Switch to the 1x2 HDMI Splitter's input.
 
@@ -58,6 +58,8 @@ For the 2x1 HDMI Pigtail Switch's other input, connect it to the VGA-to-HDMI Con
 You now need to correctly setup the projector using the little touch screen attached to the presenter's desk. Tap "Start Class" to turn on the projectors.
 
 To have the projectors show what's on the right monitor of the desktop PC, set the touch screen to "Project PC". To have the projectors show a laptop, select "Project HDMI" (note: even if it's a VGA laptop, you should select HDMI due to the quirks of our setup).
+
+At this point, you should probably connect a laptop to the short HDMI cable we mentioned earlier and test that it shows up on the projectors when the touchscreen is set to "Project HDMI". If it does not show up, you might have used the wrong one of the two HDMI cables coming out of the desk.
 
 ## Software setup
 Now that all the hardware is connected, it's time to get OBS working.
