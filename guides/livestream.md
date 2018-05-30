@@ -36,7 +36,7 @@ The equipment we use for the livestream is:
 
 Most of this equipment can be found in a Hak5-branded drawstring bag that should be either in Rhodes 1000 or ERC 516 (if you don't have a key for those rooms, you'll have to ask someone who does).
 
-The tripod, however, will need to be checked out from the library. Go to the desk at Langsam and ask them for a tripod. They'll have you show your Bearcat card and fill out a form (on the form, you can put "Cyber@UC" for the class and "livestreaming meetings" as the purpose). When you return the tripod, they'll ask again for your Bearcat card, so the person who checked it out has to be the one to return it.
+The tripod, however, will need to be checked out from the library. Go to the desk at Langsam and ask them for a tripod. They'll ask you to show your Bearcat card and fill out a form (on the form, you can put "Cyber@UC" for the class and "livestreaming meetings" as the purpose). When you return the tripod, they'll ask again for your Bearcat card, so the person who checked it out has to be the one to return it.
 
 ### Webcam
 Mount the Logitech C922 Webcam on the tripod using the screw threading on the bottom of the camera. Set up the tripod as close as possible to the presenter's desk. Try to point the camera to a reasonable spot where anyone will probably remain mostly in frame even if they move around a lot.
@@ -44,7 +44,7 @@ Mount the Logitech C922 Webcam on the tripod using the screw threading on the bo
 The USB cable on the webcam is really short, so I recommend you don't even remove the cable tie or unwind it. Instead, connect a USB extension cable to it, and plug that into one of the 4 USB ports on the PC (inside the cabinet of the presenter's desk -- you may have to reach around the door if it's locked).
 
 ### Capture card
-The Elgato Cam Link capture card should already have a dinky little 6-inch USB 3.0 extension cable attached to it. Plug that cable directly into one of the USB 3.0 ports on the PC (you **must** use a USB 3.0 port or it won't work). We have a couple HDMI cables, most of them are short but there's one long one; connect the long one to the Elgato Cam Link. Connect the other end of that HDMI cable to one of the outputs on the 1x2 HDMI Splitter.
+The Elgato Cam Link capture card should already have a dinky little ~6-inch USB 3.0 extension cable attached to it. Plug that cable directly into one of the USB 3.0 ports on the PC (you **must** use a USB 3.0 port or it won't work). We have a couple HDMI cables, most of them are short but there's one long one; connect the long one to the Elgato Cam Link. Connect the other end of that HDMI cable to one of the outputs on the 1x2 HDMI Splitter.
 
 The other output on the 1x2 HDMI Splitter needs to go to the projector. There are two HDMI cables coming out of a hole in the top of the presenter's desk (just behind the computer monitors) -- unfortunately, it's a game of trial and error to figure out which one is the HDMI input.
 
@@ -63,7 +63,9 @@ To have the projectors show what's on the right monitor of the desktop PC, set t
 Now that all the hardware is connected, it's time to get OBS working.
 
 ### Starting OBS
-Log in to the desktop PC with your UC account. You should have a copy of OBS downloaded with our configs; if not, you can download OBS+our configs here: *LINK COMING SOON*.
+Log in to the desktop PC with your UC account. You should have a copy of OBS downloaded with our configs; if not, you can download OBS with our configs [here](https://drive.google.com/file/d/1iD4PfSkKcArQNPUHNlQ6dESHrxipdMOQ/view?usp=sharing).
+
+Once you've extracted the zip file to some folder on the PC, you can start OBS by double-clicking the "Launch OBS" batch file. (FYI: All the batch file does is run obs64.exe with the `--portable` flag for portable mode, which is needed since UC doesn't allow us to install applications.)
 
 ### Intro to OBS
 You should have OBS in studio mode, which means you will see two different scenes side by side, with a few buttons in between them and a bunch of options and stuff at the bottom of the screen (if you only see one scene, turn on Studio Mode). The scene on the right is what's "live" -- when the stream is turned on, that is what is being sent to YouTube. The scene on the left is what's "on deck" -- it's whatever scene you have ready to go live at the click of a button. OBS sort of thinks of this as your current scene for editing/configuration -- the Scenes and Sources menus at the bottom of the window are for making changes to the "on deck" scene.
@@ -86,15 +88,15 @@ If either/both of these are not properly displaying, here are some possible trou
 * If the source is displaying, but there's black space around it in the scene or it's mispositioned, go to the Properties pop-up again and make sure the video resolution is correct. If it is indeed 1920x1080, then you can fix the scene by simply clicking on the picture in the scene, and dragging the corners of the source to adjust its position/size.
 
 ## Running the stream
-Now that everything is (hopefully) working, you need to actually run the stream during the meeting. Essentially, this just consists of switching between scenes. In the scenes list, there are two types of scenes that you can use during the stream: SPLASH and PRESENT (*HAYDEN'S NOTE TO SELF: need to make sure these are the correct names in the OBS configs*).
+Now that everything is (hopefully) working, you need to actually run the stream during the meeting. Essentially, this just consists of switching between scenes. In the scenes list, there are two types of scenes that you can use during the stream: SPLASH and PRESENT.
 
 * The SPLASH scenes show a pretty photo of the university and show a simple message. There are "starting soon" and "see you next week" versions of the SPLASH screen pre-made, and there's also one with no preset message that you can edit. To change the text on that scene, go to that scene, then right click the text source in the Sources list and select Properties. Change the text to whatever you like.
 * The PRESENT scenes are the primary scenes you'll use while the meeting is actually ongoing. There's three main PRESENT scenes: desktop, laptop, and webcam.
-  * The desktop scene shows whatever is the right monitor of the PC. When you show this scene, you should also have the projectors in the classroom set to "Project PC" (via the touchscreen on the desk).
+  * The desktop scene shows whatever is the right monitor of the PC. When you show this scene, you should also have the classroom projectors set to "Project PC" (via the touchscreen on the desk).
   * The laptop scenes show any laptop that is connected, whether it be HDMI or VGA. Most of the time, the first laptop scene on the list should be fine, but there are alternate versions of the scene you can use if you have a laptop putting out a weird resolution. When you use the laptop scenes, you should have the classroom projectors set to "Project HDMI".
   * The webcam scene is shows the webcam video fullscreen with the name of the club tucked in the corner. We don't use this one much.
 
-A few minutes before the meeting is going to start, make sure the "live" scene is set to the "starting soon" SPLASH scene. Then click the "Start Streaming" button in OBS (it's at the bottom on the far right).
+A few minutes before the meeting is going to start, make sure the "live" scene is set to the "SPLASH: starting soon" scene. Then click the "Start Streaming" button in OBS (it's at the bottom on the far right).
 
 ### Ending the stream
-If you can, it's nice to have the "see you next week" SPLASH scene up for a minute or so at the end of the meeting. Regardless, you'll want to click "Stop Streaming" and then close OBS and log out of the computer. Pack up everything into the Hak5 bag, and take the tripod back to Langsam (the desk is open pretty late so I recommend returning it the same night so you don't forget about it).
+If you can, it's nice to have the "SPLASH: see you next week" scene up for a minute or so at the end of the meeting. When you're ready to kill it, click "Stop Streaming", close OBS, and log out of the computer. Tap "End Class" on the touchscreen to turn off the projectors. Pack up all the equipment into the Hak5 bag and store it in either Rhodes 1000 or ERC 516. Put the tripod in its bag and return it to Langsam (the Langsam desk is open pretty late, so I recommend returning it immediately after the meeting ends).
