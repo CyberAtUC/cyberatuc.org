@@ -9,9 +9,9 @@ layout: content
       {%- if page.author -%}
         {%- assign author = site.data.authors[page.author] -%}
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-          {% capture avatar_filename %}avatar-square-bust-{{ page.author }}.jpg{% endcapture -%}
+          {% capture avatar_filename %}avatar-{{ page.author }}.jpg{% endcapture -%}
           {%- unless assets[avatar_filename] -%}
-            {%- assign avatar_filename = 'avatar-square-bust-placeholder.png' -%}
+            {%- assign avatar_filename = 'placeholder-avatar.png' -%}
           {%- endunless -%}
           {%- asset '{{ avatar_filename }}'
             srcset:width="128 3x"
