@@ -67,7 +67,7 @@ Basically, blog posts are saved as Markdown files in the `_posts/` directory. At
 * `layout`: This defines what type of page this is; this should always be `post`.
 * `categories`: The categories show up as part of the page's URL, so please do not change this value from `blog`.
 * `title`: The title for this post that shows up at the top of the page and in the browser's tab name. It's pretty self-explanatory.
-* `author`: Username of the author. If this is your first time writing a blog post for the site, you'll need to add an entry for yourself in the `_data/authors.yml` file (see the comment at the top of that file for more info).
+* `author`: Username of the author. If this is your first time writing a blog post for the site, you'll need to add an entry for yourself in the `_data/authors.yml` file (see the section above on authors/members for instructions).
 * `date`: Should be the approximate time you plan to publish the post (but don't set it in the future—some RSS readers might be freaked out by that)
 
 ## Meetings
