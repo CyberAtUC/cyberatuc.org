@@ -64,6 +64,7 @@ header_pages:
 - about.md
 - _meetings/index.html
 - blog.md
+- guides/index.md
 
 # Build settings
 markdown: kramdown
