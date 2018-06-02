@@ -37,15 +37,15 @@ layout: content
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+    {%- if page.youtube -%}
+      {% youtube {{ page.youtube }} %}
+    {%- endif -%}
 
     {%- if page.meeting_number and page.meeting_slides != false -%}
       <p class="h4"><a href="{{ site.url }}/files/slides/meeting_{{ page.meeting_number | prepend: '000' | slice: -3, 3 }}.pdf">View the slides.</a></p>
     {%- endif -%}
 
-    {%- if page.youtube -%}
-      {% youtube {{ page.youtube }} %}
-    {%- endif -%}
+    {{ content }}
   </div>
 
   {%- if site.disqus.shortname -%}
