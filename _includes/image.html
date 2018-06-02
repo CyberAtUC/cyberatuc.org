@@ -1,0 +1,18 @@
+<figure class="post-img">
+  <a href="{% asset '{{ include.src }}' @path %}" target="_blank">
+    {% capture classes -%}
+      {%- unless include.no_thumbnail %}img-thumbnail{%- endunless -%}
+      {%- if include.class -%}{{- ' ' | append: include.class | strip_html -}}{%- endif -%}
+    {%- endcapture -%}
+    {%- asset '{{ include.src }}' !integrity
+      srcset:width=1536
+      srcset:width=768
+      srcset:width=576
+      srcset:width=384
+      alt="{{ include.alt | strip_html }}" class="{{ classes }}"
+      %}
+  </a>
+  {% if include.caption -%}
+    <figcaption>{{ include.caption | markdownify }}</figcaption>
+  {%- endif %}
+</figure>
