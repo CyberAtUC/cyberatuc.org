@@ -4,8 +4,8 @@
 #
 # Some important notes:
 #  -- Please use your UC username (i.e. your @mail.uc.edu name). If you don't
-#     have a UC username, make your username `+[last name][first name]` (e.g.
-#     `+doejohn`).
+#     have a UC username, make your username `~[last name][first name]` (e.g.
+#     `~doejohn`).
 #  -- If you don't have a position or a Twitter account, just leave those out.
 #  -- Your initials must only be two characters.
 
@@ -23,7 +23,7 @@ frantzme:
   name:     Myles Frantz
 gamstegl:
   name:     Grace Gamstetter
-+igyartoiggy:
+~igyartoiggy:
   name:     Iggy Igyarto
   email:    jigyarto0001@kctcs.edu
 kieferka:
