@@ -6,17 +6,8 @@ permalink: /guides/livestream
 This guide will teach you how to run the Cyber@UC livestream. It is a work in progress, so please ask [Hayden Schiff](mailto:schiffha@mail.uc.edu) if you have any questions or issues.
 
 **Table of Contents:**
-* [Hardware setup](#hardware-setup)
-  * [Equipment list](#equipment-list)
-  * [Webcam](#webcam)
-  * [Capture card](#capture-card)
-  * [Projectors](#projectors)
-* [Software setup](#software-setup)
-  * [Starting OBS](#starting-obs)
-  * [Intro to OBS](#intro-to-obs)
-  * [Video capture devices](#video-capture-devices)
-* [Running the stream](#running-the-stream)
-  * [Ending the stream](#ending-the-stream)
+* toc
+{:toc}
 
 ## Hardware setup
 Here's how to setup all the hardware components. **If you're not sure what piece of equipment I'm talking about, you can find photos of everything by clicking the links in the equipment list.**
