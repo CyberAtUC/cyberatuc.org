@@ -24,6 +24,7 @@ lang: en_US
 future: true # show future-dated posts
 # refer to http://shopify.github.io/liquid/filters/date/ to customize this
 date_format: "%b %-d, %Y"
+primary_color: "#e00122"
 
 # page settings
 permalink: /:categories/:year/:month/:day/:title
