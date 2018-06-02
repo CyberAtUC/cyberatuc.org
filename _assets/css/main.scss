@@ -80,7 +80,7 @@ $primary: #e00122;
 
 // homepage stuff
 .home-jumbotron-main {
-  background: asset_url("flickr-fusion_of_horizons-1534739047.jpg") no-repeat center center;
+  background: asset_url("flickr-fusion_of_horizons-1534739047-dark.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 12%;
   padding-bottom: 12%;
@@ -127,25 +127,11 @@ $primary: #e00122;
 
 // meetings index
 .meetings-links a:active,
-.meetings-links a:hover
-{
+.meetings-links a:hover {
   text-decoration: none;
 }
 
 // individual meeting pages
 .meetings-nav a {
   @extend .text-secondary;
-}
-
-//
-.card-columns.about-members-cards {
-  @include media-breakpoint-only(sm) {
-    column-count: 3;
-  }
-  @include media-breakpoint-only(md) {
-    column-count: 4;
-  }
-  @include media-breakpoint-up(lg) {
-    column-count: 5;
-  }
 }
