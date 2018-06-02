@@ -70,7 +70,16 @@ $primary: #e00122;
   background-size: cover;
   padding-top: 12%;
   padding-bottom: 12%;
-  @extend .text-light;
+  color: $light;
+  h1 {
+    font-size: $display4-size;
+    font-weight: $display4-weight;
+    line-height: $display-line-height;
+    @include media-breakpoint-up(sm) {
+      font-size: $display2-size;
+      font-weight: $display2-weight;
+    }
+  }
 }
 .home-container > .row {
   margin-top: 5rem;
@@ -86,11 +95,13 @@ $primary: #e00122;
     @extend .col-lg-3;
     i {
       @extend .fa-7x;
-      @extend .text-primary;
+      color: $primary;
     }
     h2 {
-      @extend .h1;
-      @extend .text-primary;
+      color: $primary;
+      @include media-breakpoint-up(sm) {
+        font-size: $h1-font-size;
+      }
     }
   }
 }
