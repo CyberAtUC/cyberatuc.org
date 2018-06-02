@@ -38,7 +38,12 @@ defaults:
     values:
       layout: meeting
 
-# Social links
+# SOCIAL MEDIA LINKS
+# Many values appear in multiple places, so if you're changing something, make
+# sure you change it everywhere!
+twitter:
+  username: CyberAtUC
+  card: summary
 twitter_username: CyberAtUC
 facebook_username: CyberAtUC
 instagram_username: CyberAtUC

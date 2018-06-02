@@ -1,0 +1,21 @@
+# This file defines who appears on the About page. The executives have big cards
+# at the top, and members have small cards below the executives. These users
+# must be defined in the authors.yml file.
+executives:
+  - cardaraj
+  - oconnorn
+  - baasrn
+  - smith8m3
+  - mcphilcm
+  - winklead
+  - singhj7
+  - barkergs
+members:
+  - gamstegl
+  - +igyartoiggy
+  - kieferka
+  - morgabm
+  - morric5
+  - schiffha
+  - wolfeco
+  - young2r2

@@ -1,0 +1,59 @@
+# AUTHORS METADATA
+# Anyone who writes a blog post or appears on the about page must have an entry
+# in this file.
+#
+# Some important notes:
+#  -- Please use your UC username (i.e. your @mail.uc.edu name). If you don't
+#     have a UC username, make your username `+[last name][first name]` (e.g.
+#     `+doejohn`).
+#  -- If you don't have a position or a Twitter account, just leave those out.
+#  -- Your initials must only be two characters.
+
+baasrn:
+  name:     Ryan Baas
+  position: Treasurer
+barkergs:
+  name:     Greg Barker
+  position: Recruitment Head
+cardaraj:
+  name:     A.J. Cardarelli
+  position: President
+  twitter:  i_AJC
+frantzme:
+  name:     Myles Frantz
+gamstegl:
+  name:     Grace Gamstetter
++igyartoiggy:
+  name:     Iggy Igyarto
+  email:    jigyarto0001@kctcs.edu
+kieferka:
+  name:     Kevin Kiefer
+mcphilcm:
+  name:     Cory McPhillips
+  position: Content Head
+  twiter:   savitar94
+morgabm:
+  name:     Bailey Morgan
+morric5:
+  name:     Christopher Morrison
+  twitter:  MMorrison500
+oconnorn:
+  name:     Ryan O'Connor
+  position: Vice President
+  twitter:  RDOengineer
+schiffha:
+  name:     Hayden Schiff
+  twitter:  oxguy3
+singhj7:
+  name:     Jai Singh
+  position: Public Affairs Head
+smith8m3:
+  name:     Marisa Smith
+  position: Secretary
+winklead:
+  name:     Alexander Winkler
+  position: Outreach Head
+wolfeco:
+  name:     Clif Wolfe
+young2r2:
+  name:     Ryan Young

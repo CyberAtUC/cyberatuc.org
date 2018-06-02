@@ -1,0 +1,55 @@
+{%- assign user = site.data.authors[include.username] -%}
+
+{%- if include.small -%}
+  {%- capture label_email -%}<i class="fas fa-envelope"></i>{%- endcapture -%}
+  {%- capture label_twitter -%}<i class="fab fa-twitter"></i>{%- endcapture -%}
+{%- else -%}
+  {%- assign label_email="Email" -%}
+  {%- assign label_twitter="Twitter" -%}
+{%- endif -%}
+
+{%- if user.email -%}
+  {%- assign email = user.email -%}
+{%- else -%}
+  {%- assign username_first_char = include.username | slice: 1 -%}
+  {%- unless username_first_char == "_" -%}
+    {%- assign email = include.username | append: '@mail.uc.edu' -%}
+  {%- endunless -%}
+{%- endif -%}
+
+<div class="card border-secondary mb-3">
+  {% capture avatar_filename %}avatar-square-bust-{{ include.username }}.jpg{% endcapture -%}
+  {%- unless assets[avatar_filename] -%}
+    {%- assign avatar_filename = 'avatar-square-bust-placeholder.png' -%}
+  {%- endunless -%}
+  <a href="{% asset '{{avatar_filename}}' @path %}">
+    {%- asset '{{ avatar_filename }}'
+      srcset:width="759 3x"
+      srcset:width="506 2x"
+      srcset:width="253 1x"
+      alt="Profile picture" class="card-img-top" %}
+  </a>
+  <div class="card-body {% if include.small %}p-2{% endif %}">
+    {%- if include.small -%}
+      <h6 class="card-title">{{ user.name | replace: " ", " <br>" }}</h6>
+    {%- else -%}
+      <h5 class="card-title">{{ user.name }}</h5>
+    {%- endif -%}
+
+    {%- if user.position -%}
+      <h6 class="card-subtitle mb-2 text-muted">{{ user.position }}</h6>
+    {%- endif -%}
+
+    {%- if email -%}
+      <a href="mailto:{{ email }}" class="card-link">
+        {{- label_email -}}
+      </a>
+    {%- endif -%}
+
+    {%- if user.twitter -%}
+      <a href="https://twitter.com/{{ user.twitter }}" class="card-link">
+        {{- twitter_label -}}
+      </a>
+    {%- endif %}
+  </div>
+</div>
