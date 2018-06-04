@@ -3,20 +3,17 @@ layout: page
 title: How to contribute to the cyberatuc.org website
 permalink: /guides/website
 ---
-This site is deliberately set up to be easy to hack on. If you know how to write in Markdown and make commits in Git, you can probably contribute to this website.
-
-To get started, you'll first want to go through the installation process shown on [our GitHub's readme](https://github.com/UCyber/cyberatuc.org#readme), and make sure you can build and test the site and that everything loads correctly when you view it in a web browser.
 
 **Table of Contents:**
 * toc
 {:toc}
 
 ## The basics
+This site is deliberately set up to be easy to hack on. If you know how to write in Markdown and make commits in Git, you can probably contribute to this website.
+
+To get started, you'll first want to go through the installation process shown on [our GitHub's readme](https://github.com/UCyber/cyberatuc.org#readme), and make sure you can build and test the site and that everything loads correctly when you view it in a web browser.
+
 See [Jekyll's website](https://jekyllrb.com/) for documentation of the most basic stuff. In particular, the [Directory structure](https://jekyllrb.com/docs/structure/) page is very useful for figuring out where everything is.
-
-One quirk of this project is that we use [jekyll-assets](https://github.com/envygeeks/jekyll-assets) instead of Jekyll's built-in asset management, so if you are embedding an image/script/stylesheet/etc, it might be a little bit different than what Google will tell you. See jekyll-assets' docs at that link (or just look at some of the existing pages and copy from them).
-
-The theme for the site was built from Jekyll's default theme, [minima](https://github.com/jekyll/minima). However, it has been heavily modified to use [Bootstrap 4](http://getbootstrap.com/) (a framework for layout/components/etc). We also use [Font Awesome 5](https://fontawesome.com/) for icons, [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) for metadata tags, and a couple other plugins for this and that (see the `Gemfile` or the build settings in `_config.yml`). **Be warned:** Bootstrap 4 and Font Awesome 5 are both relatively new versions of that software, so a lot of the info on Google might still be for the previous version.
 
 ## Markdown
 Blog posts and simple content pages on this site are written in Markdown, a very simple markup language. This is used in Reddit posts, GitHub readmes, etc, and is generally pretty easy and intuitive to figure out. You can find a basic tutorial of how to write in Markdown [here](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
@@ -74,3 +71,10 @@ Basically, blog posts are saved as Markdown files in the `_posts/` directory. At
 Unique to the Cyber@UC is the `_meetings` folder, which stores the pages for every meeting in the meetings archive. Meetings are implemented as a Collection in Jekyll, which you can read more about [here](https://jekyllrb.com/docs/collections/).
 
 To create a new meeting page, create a new Markdown file in the `_meetings/` folder and format it just like the other `<number>.md` files there. Put the slides PDF at `files/slides/meeting_001.pdf` (replace 001 with your meeting number). If there are no slides for whatever reason, add `meeting_slides: false` on a new line in the [YAML front matter](https://jekyllrb.com/docs/frontmatter/) in your .md file.
+
+## Advanced site development
+If you are going to work on the site's design or adding features or whatever, here's some pertinent info you might need.
+
+One quirk of this project is that we use [jekyll-assets](https://github.com/envygeeks/jekyll-assets) instead of Jekyll's built-in asset management, so if you are embedding an image/script/stylesheet/etc, it might be a little bit different than what Google will tell you. See jekyll-assets' docs at that link (or just look at some of the existing pages and copy from them).
+
+The theme for the site was built from Jekyll's default theme, [minima](https://github.com/jekyll/minima). However, it has been heavily modified to use [Bootstrap 4](http://getbootstrap.com/) (a framework for layout/components/etc). We also use [Font Awesome 5](https://fontawesome.com/) for icons, [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) for metadata tags, and a couple other plugins for this and that (see the `Gemfile` or the build settings in `_config.yml`). **Be warned:** Bootstrap 4 and Font Awesome 5 are both relatively new versions of that software, so a lot of the info on Google might still be for the previous version.
