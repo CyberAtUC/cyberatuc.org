@@ -2,10 +2,8 @@
 
 {%- if include.small -%}
   {%- capture label_email -%}<i class="fas fa-envelope"></i>{%- endcapture -%}
-  {%- capture label_twitter -%}<i class="fab fa-twitter"></i>{%- endcapture -%}
 {%- else -%}
   {%- assign label_email="Email" -%}
-  {%- assign label_twitter="Twitter" -%}
 {%- endif -%}
 
 {%- if user.email -%}
@@ -45,11 +43,5 @@
         {{- label_email -}}
       </a>
     {%- endif -%}
-
-    {%- if user.twitter -%}
-      <a href="https://twitter.com/{{ user.twitter }}" class="card-link">
-        {{- label_twitter -}}
-      </a>
-    {%- endif %}
   </div>
 </div>
