@@ -23,18 +23,14 @@ More advanced users might want to know that we are using the GitHub-Flavored Mar
 ### Images
 If you are going to host an image here on the website, we have a prebuilt template you should use to embed it (which will automatically take care of a bunch of tedious crap for you). Place your image in the `_assets/img/` directory with a descriptive filename, using dashes in place of spaces (if it belongs to a blog post or other dated content, please begin the filename with the date in YYYY-MM-DD format). Then you can use this code to include the image in your post:
 
-```
-{% raw %}{% include image.html src="my-file.jpg" alt="Text to be shown if the image fails to load" caption="Text to be shown directly below the image" %}{% endraw %}
-```
+`{% raw %}{% include image.html src="my-file.jpg" alt="Text to be shown if the image fails to load" caption="Text to be shown directly below the image" %}{% endraw %}`
 
 You can remove the `alt` or `caption` options if you don't need them.
 
 ### YouTube videos
 To embed a YouTube video, simply use this code:
 
-```
-{% raw %}{% youtube "https://www.youtube.com/watch?v=dQw4w9WgXcQ" %}{% endraw %}
-```
+`{% raw %}{% youtube "https://www.youtube.com/watch?v=dQw4w9WgXcQ" %}{% endraw %}`
 
 ## Author/member information
 If you want to be listed on the members page, or if you are going to write a blog post, you need to add your basic information to the site's author list. Once you've done that, you may also add a photo of yourself or add yourself to the members page.
