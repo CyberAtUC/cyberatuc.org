@@ -1,3 +1,9 @@
+# REPOSITORY MOVED
+
+**ACHTUNG!** We no longer use GitHub. This is an outdated version of the site, and any commits/pulls/issues created here will be ignored. Please visit the new repository:
+
+**https://gitlab.com/cyberatuc/cyberatuc.org**
+
 # cyberatuc.org
 
 New Cyber@UC website built using Jekyll.
